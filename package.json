@@ -1,0 +1,23 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "site",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./random/main.js",
+    "start2": "node ./weather/main.js",
+    "start3": "node ./read/main.js",
+    "start4": "node ./crtDir.js"
+
+  },
+  "author": "Rysenko Alexander",
+  "license": "ISC",
+  "devDependencies": {
+    "file-system": "^2.2.2"
+  },
+  "dependencies": {
+    "fancy-log": "^1.3.0",
+    "yahoo-weather": "^2.2.2"
+  }
+}
